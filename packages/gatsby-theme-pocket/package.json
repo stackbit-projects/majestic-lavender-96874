@@ -1,0 +1,56 @@
+{
+  "name": "gatsby-theme-pocket",
+  "version": "0.3.1",
+  "description": "A gatsby theme that adds pocket to your website",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/molebox/gatsby-theme-pocket"
+  },
+  "scripts": {
+    "dev": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "pretty-check": "prettier --check \"src/**/*.{js,tsx,ts}\"",
+    "pretty": "prettier --write \"src/**/*{js,tsx,ts}\""
+  },
+  "bin": {
+    "pocket-setup": "./bin/setup.js"
+  },
+  "keywords": [
+    "gatsby",
+    "pocket",
+    "gatsby-plugin",
+    "gatsby-theme",
+    "react"
+  ],
+  "dependencies": {
+    "@emotion/core": "^10.0.22",
+    "@emotion/styled": "^10.0.23",
+    "@mdx-js/react": "^1.5.1",
+    "gatsby-image": "^2.2.30",
+    "gatsby-plugin-emotion": "^4.1.13",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-sharp": "^2.2.36",
+    "gatsby-source-filesystem": "^2.1.35",
+    "gatsby-source-pocket": "^2.3.1",
+    "gatsby-theme-seo": "^1.0.0",
+    "gatsby-transformer-sharp": "^2.3.2",
+    "isolated-theme-ui": "^1.0.1",
+    "moment": "^2.24.0",
+    "node-getpocket": "^1.0.0",
+    "react-select": "^3.0.8",
+    "react-switch": "^5.0.1",
+    "shelljs": "^0.8.3",
+    "theme-ui": "^0.2.46"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.17.7",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
